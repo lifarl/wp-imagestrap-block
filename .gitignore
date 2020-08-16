@@ -1,0 +1,3 @@
+node_modules
+## keep compiled files out of version control
+dist/

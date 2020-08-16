@@ -1,0 +1,24 @@
+.image-strap__wrapper {
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+    .image-strap__row {
+        display: flex;
+        justify-content: center;
+
+        .image-strap__item {
+            width: 25%;
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: 100%;
+                transition: transform .5s ease;
+
+                &:hover {
+                    transform: scale(1.5);
+                }
+            }
+        }
+    }
+}
